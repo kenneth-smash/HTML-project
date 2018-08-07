@@ -1,0 +1,22 @@
+
+#bigparagraph {font-size:"500";height: "600";padding: 50px 10px; color:black}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: royalblue;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+body{text-align: center;color:dimgrey;background-color: lightblue}
+    
